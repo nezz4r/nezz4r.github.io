@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hey there</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body id="body">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <div id="menu" class="menu">
+      <a class="submenu" href="#header">Sobre mim</a>
+      <a class="submenu" href="#skills">Minhas habilidades</a>
+    </div>
+    <div id="header" class="odd">
+      <h1>Raul Victor Queiroz</h1>
+      <br />
+      <p>
+        Eu sou um estudante de Engenharia da Computação <br />
+        aprofundando meus estudos na área de programação <br />
+        para me tornar um desenvolvedor full-stack.<br />O intuito desse site é
+        servir de portfolio.
+      </p>
+      <br />
+      <div class="pictures">
+        <img class="profile" src="pp.png" onclick="darkMode()" />
+
+        <div class="social">
+          <div class="git">
+            <a href="https://github.com/nezz4r">
+              <img class="git" src="git.png" />
+            </a>
+          </div>
+          <div class="linked">
+            <a href="https://www.linkedin.com/in/rvqueiroz/">
+              <img class="linked" src="linkedin.png" />
+            </a>
+          </div>
+          <div class="email">
+            <a href="mailto://raulvictor00@outlook.com">
+              <img class="email" src="email.png" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="skills" class="middle">
+      <h2>Minhas habilidades</h2>
+      <div class="container">
+        <div id="backend" class="habilidade">
+          <img class="fb" src="backend2.png" />
+          <h3 class="subtitle">Back-end</h3>
+          <p>
+            Desenvolvo sistemas para dar suporte aos produtos web, crio APIs e
+            tenho boa experiência com banco de dados
+          </p>
+          <h4 class="subtitle">Tecnologias:</h4>
+          <p>Node.js, REST, SQL</p>
+          <h4 class="subtitle">Ferramentas</h4>
+          <p>PostgreSQL, Express, Sequelize</p>
+        </div>
+        <div id="frontend" class="habilidade">
+          <img class="fb" src="frontend2.png" />
+          <h3 class="subtitle">Front-end</h3>
+          <p>
+            Eu programo sites do zero, tirando ideias do papel e me preocupando
+            com a entrega final <br /><br />
+          </p>
+
+          <h4 class="subtitle">Linguagens:</h4>
+          <p>HTML, CSS, Javascript</p>
+          <h4 class="subtitle">Ferramentas</h4>
+          <p>Wordpress, React, Redux, SASS</p>
+        </div>
+      </div>
+    </div>
+    <div id="footer" class="odd">
+      © Copyright 2020 RV Tecnologias LTDA.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
