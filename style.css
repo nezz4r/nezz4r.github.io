@@ -32,7 +32,6 @@ body {
 .odd {
   background: #ffffff;
   background-image: url(background.png);
-  imagesize: 500px;
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
@@ -41,44 +40,16 @@ body {
   transition: 0.6s;
 }
 
-.dark-mode .odd {
-  background: rgb(19, 19, 19);
-  color: white;
-  background-image: url(background.png);
-}
-
-.dark-mode {
-  background: rgb(19, 19, 19);
-  color: white;
-  background-image: url(background.png);
-}
-.dark-mode #menu {
-  background: #261168;
-}
-
-.dark-mode #skills {
-  background: #261168;
-}
-.dark-mode .habilidade {
-  color: rgb(223, 223, 223);
-  background: rgb(19, 19, 19);
-  transition: 0.6s;
-}
-
 .subtitle {
   color: white;
   transition: 0.6s;
 }
-.dark-mode .subtitle {
-  color: white;
-}
+
 p {
   color: black;
   transition: 0.6s;
 }
-.dark-mode p {
-  color: rgb(223, 223, 223);
-}
+
 h1 {
   font-size: 48px;
 }
@@ -87,6 +58,7 @@ h1 {
   height: 200px;
   border-radius: 100px;
   margin-top: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .git {
@@ -124,21 +96,20 @@ h1 {
 .container {
   display: flex;
   justify-content: center;
-  imagesize: 555px;
 }
 
 .habilidade {
   width: 250px;
   background: white;
   margin: 50px;
-  border-radius: 10px;
+
   text-align: center;
   padding-bottom: 40px;
   padding-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
   transition: 0.6s;
-  imagesize: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .fb {
@@ -176,4 +147,38 @@ h2 {
 
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/* DARK MODE */
+
+.dark-mode p {
+  color: rgb(223, 223, 223);
+}
+
+.dark-mode .subtitle {
+  color: white;
+}
+
+.dark-mode .odd {
+  background: rgb(19, 19, 19);
+  color: white;
+  background-image: url(background.png);
+}
+
+.dark-mode {
+  background: rgb(19, 19, 19);
+  color: white;
+  background-image: url(background.png);
+}
+.dark-mode #menu {
+  background: #261168;
+}
+
+.dark-mode #skills {
+  background: #261168;
+}
+.dark-mode .habilidade {
+  color: rgb(223, 223, 223);
+  background: rgb(19, 19, 19);
+  transition: 0.6s;
 }
