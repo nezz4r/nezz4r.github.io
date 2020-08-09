@@ -1,49 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Raul Queiroz | Portfolio</title>
+    <title>Hey there</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
-  <body>
+  <body id="body">
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
-    <div id="header">
-      <div class="pp">
-        <img class="profile" src="/img/pp.png" onclick="darkMode()" />
-      </div>
-
-      <div id="nameTitle">
-        <h1>Raul Victor Queiroz</h1>
-        <h2>Web developer</h2>
-      </div>
-
-      <div class="social">
-        <div class="contact">
-          <a href="https://github.com/nezz4r" target="_blank">
-            <img id="git" src="/img/git.png" />
-          </a>
-        </div>
-
-        <div class="contact">
-          <a href="https://www.linkedin.com/in/rvqueiroz/" target="_blank">
-            <img id="linked" src="/img/linkedin.png" />
-          </a>
-        </div>
-
-        <div class="contact">
-          <a href="mailto://raulvictor00@outlook.com" target="_blank">
-            <img id="email" src="/img/email.png" />
-          </a>
-        </div>
-      </div>
+    <div id="menu" class="menu">
+      <a class="submenu" href="#header">Sobre mim</a>
+      <a class="submenu" href="#skills">Minhas habilidades</a>
     </div>
-
-    <div id="about" class="card">
+    <div id="header" class="odd">
+      <h1>Raul Victor Queiroz</h1>
       <br />
-      <h3>Sobre mim</h3>
       <p>
         Eu sou um estudante de Engenharia da Computação <br />
         aprofundando meus estudos na área de programação <br />
@@ -51,6 +23,27 @@
         servir de portfolio.
       </p>
       <br />
+      <div class="pictures">
+        <img class="profile" src="/img/pp.png" onclick="darkMode()" />
+
+        <div class="social">
+          <div class="git">
+            <a href="https://github.com/nezz4r">
+              <img class="git" src="/img/git.png" />
+            </a>
+          </div>
+          <div class="linked">
+            <a href="https://www.linkedin.com/in/rvqueiroz/">
+              <img class="linked" src="/img/linkedin.png" />
+            </a>
+          </div>
+          <div class="email">
+            <a href="mailto://raulvictor00@outlook.com">
+              <img class="email" src="/img/email.png" />
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div id="skills" class="middle">
