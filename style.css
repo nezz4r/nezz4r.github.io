@@ -6,33 +6,16 @@ body {
   margin: 0;
 }
 
-.menu {
-  text-align: right;
+#header {
+  text-align: left;
   background: #6633ff;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  padding-right: 80px;
   font-family: arial;
   transition: 0.6s;
 }
 
-.submenu {
-  text-decoration: none;
-  color: white;
-  margin-right: 30px;
-  transition: 0.6s;
-  padding: 10px;
-  border: 10px;
-}
-.submenu:hover {
-  animation-delay: 1000ms;
-  color: #bbbbbb;
-}
-
-.odd {
+.card {
   background: #ffffff;
   background-image: url(background.png);
-  imagesize: 500px;
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
@@ -41,46 +24,9 @@ body {
   transition: 0.6s;
 }
 
-.dark-mode .odd {
-  background: rgb(19, 19, 19);
-  color: white;
-  background-image: url(background.png);
-}
-
-.dark-mode {
-  background: rgb(19, 19, 19);
-  color: white;
-  background-image: url(background.png);
-}
-.dark-mode #menu {
-  background: #261168;
-}
-
-.dark-mode #skills {
-  background: #261168;
-}
-.dark-mode .habilidade {
-  color: rgb(223, 223, 223);
-  background: rgb(19, 19, 19);
-  transition: 0.6s;
-}
-
 .subtitle {
   color: white;
   transition: 0.6s;
-}
-.dark-mode .subtitle {
-  color: white;
-}
-p {
-  color: black;
-  transition: 0.6s;
-}
-.dark-mode p {
-  color: rgb(223, 223, 223);
-}
-h1 {
-  font-size: 48px;
 }
 
 .profile {
@@ -89,20 +35,10 @@ h1 {
   margin-top: 40px;
 }
 
-.git {
+#git,
+#email,
+#linked {
   height: 66px;
-  border-radius: 100px;
-  margin: 10px;
-}
-
-.linked {
-  height: 66px;
-  border-radius: 100px;
-  margin: 10px;
-}
-
-.email {
-  height: 75px;
   border-radius: 100px;
   margin: 10px;
 }
@@ -124,21 +60,19 @@ h1 {
 .container {
   display: flex;
   justify-content: center;
-  imagesize: 555px;
 }
 
 .habilidade {
   width: 250px;
   background: white;
   margin: 50px;
-  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   padding-bottom: 40px;
   padding-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
   transition: 0.6s;
-  imagesize: 50px;
 }
 
 .fb {
@@ -176,4 +110,30 @@ h2 {
 
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/*DARK MODE CSS*/
+
+.dark-mode {
+  background: rgb(19, 19, 19);
+  color: white;
+  background-image: url(background.png);
+}
+.dark-mode .odd {
+  background: rgb(19, 19, 19);
+  color: white;
+  background-image: url(background.png);
+}
+
+.dark-mode #menu {
+  background: #261168;
+}
+
+.dark-mode #skills {
+  background: #261168;
+}
+.dark-mode .habilidade {
+  color: rgb(223, 223, 223);
+  background: rgb(19, 19, 19);
+  transition: 0.6s;
 }
