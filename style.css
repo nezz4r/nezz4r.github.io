@@ -31,7 +31,7 @@ body {
 
 .odd {
   background: #ffffff;
-  background-image: url(background.png);
+  background-image: url(/img/background.png);
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
