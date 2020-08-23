@@ -163,13 +163,11 @@ h2 {
 .dark-mode .odd {
   background: rgb(19, 19, 19);
   color: white;
-  background-image: url(background.png);
 }
 
 .dark-mode {
   background: rgb(19, 19, 19);
   color: white;
-  background-image: url(background.png);
 }
 .dark-mode #menu {
   background: #261168;
