@@ -1,0 +1,212 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 150px;
+  font-family: sans-serif;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.navbar-container {
+  width: 100%;
+  background: #185a64;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  top: 0;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.menu {
+  width: 80%;
+  padding: 20px 0;
+  font-family: arial;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu h1 {
+  color: white;
+}
+
+.menu .logo {
+  height: 70px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  padding: 10px 0;
+  border: 10px;
+}
+
+.menu ul li a:hover {
+  -webkit-animation-delay: 1000ms;
+          animation-delay: 1000ms;
+  color: #bbbbbb;
+}
+
+.scrolled {
+  padding: 15px 0;
+}
+
+.scrolled .logo {
+  height: 60px;
+}
+
+.odd {
+  background: #ffffff;
+  background-image: url(../img/background.png);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: grey;
+  font-family: Arial;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.profile {
+  height: 200px;
+  border-radius: 100px;
+  margin-top: 40px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.git {
+  height: 66px;
+  border-radius: 100px;
+  margin: 10px;
+}
+
+.linked {
+  height: 66px;
+  border-radius: 100px;
+  margin: 10px;
+}
+
+.email {
+  height: 75px;
+  border-radius: 100px;
+  margin: 10px;
+}
+
+.pictures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 115px;
+}
+
+.middle {
+  font-family: Arial;
+  background: #185a64;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.habilidade {
+  width: 100%;
+  background: white;
+  margin: 50px;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.fb {
+  height: 50px;
+}
+
+h2 {
+  text-align: center;
+  font-family: Arial;
+  color: #ffffff;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.subtitle {
+  color: #555;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-container {
+    width: 100%;
+    background: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: fixed;
+    top: 0;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+}
+/*# sourceMappingURL=main.css.map */

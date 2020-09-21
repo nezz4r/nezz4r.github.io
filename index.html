@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hey there</title>
+    <title>RV.tech | Raul Victor Queiroz</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/icon" href="assets/img/favicon/favicon.ico" />
+    <link href="/assets/css/main.css" rel="stylesheet" type="text/css" />
+    <script src="https://unpkg.com/github-card@1.2.1/dist/widget.js"></script>
   </head>
 
   <body id="body">
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    <div id="menu" class="menu">
-      <a class="submenu" href="#header">Sobre mim</a>
-      <a class="submenu" href="#skills">Minhas habilidades</a>
+    <div class="navbar-container">
+      <nav id="menu" class="menu">
+        <img class="logo" src="assets/img/logo2.png" />
+
+        <ul>
+          <li class="link1"><a class="submenu" href="#header">Sobre mim</a></li>
+          <li class="link2">
+            <a class="submenu" href="#skills">Minhas habilidades</a>
+          </li>
+        </ul>
+      </nav>
     </div>
     <div id="header" class="odd">
       <h1>Raul Victor Queiroz</h1>
@@ -24,22 +33,22 @@
       </p>
       <br />
       <div class="pictures">
-        <img class="profile" src="/img/pp.png" onclick="darkMode()" />
+        <img class="profile" src="assets/img/pp.png" onclick="darkMode()" />
 
         <div class="social">
           <div class="git">
             <a href="https://github.com/nezz4r">
-              <img class="git" src="/img/git.png" />
+              <img class="git" src="assets/img/git.png" />
             </a>
           </div>
           <div class="linked">
             <a href="https://www.linkedin.com/in/rvqueiroz/">
-              <img class="linked" src="/img/linkedin.png" />
+              <img class="linked" src="assets/img/linkedin.png" />
             </a>
           </div>
           <div class="email">
             <a href="mailto://raulvictor00@outlook.com">
-              <img class="email" src="/img/email.png" />
+              <img class="email" src="assets/img/email.png" />
             </a>
           </div>
         </div>
@@ -50,7 +59,7 @@
       <h2>Minhas habilidades</h2>
       <div class="container">
         <div id="backend" class="habilidade">
-          <img class="fb" src="/img/backend2.png" />
+          <img class="fb" src="assets/img/backend2.png" />
           <h3 class="subtitle">Back-end</h3>
           <p>
             Desenvolvo sistemas para dar suporte aos produtos web, crio APIs e
@@ -61,8 +70,14 @@
           <h4 class="subtitle">Ferramentas</h4>
           <p>PostgreSQL, Express, Sequelize</p>
         </div>
+        <div
+          class="github-widget habilidade"
+          id="git-widget"
+          data-username="nezz4r"
+        ></div>
+
         <div id="frontend" class="habilidade">
-          <img class="fb" src="/img/frontend2.png" />
+          <img class="fb" src="assets/img/frontend2.png" />
           <h3 class="subtitle">Front-end</h3>
           <p>
             Eu programo sites do zero, tirando ideias do papel e me preocupando
@@ -77,8 +92,8 @@
       </div>
     </div>
     <div id="footer" class="odd">
-      © Copyright 2020 RV Tecnologias LTDA. Hosted with GitHub Pages.
+      © Copyright 2019-2020 RV Tech LTDA. Hosted with GitHub Pages.
     </div>
-    <script src="script.js"></script>
+    <script src="/assets/js/script.js"></script>
   </body>
 </html>
