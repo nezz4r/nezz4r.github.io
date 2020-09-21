@@ -20,7 +20,7 @@ body {
 
 .navbar-container {
   width: 100%;
-  background: #185a64;
+  background: #2e3337;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -147,7 +147,7 @@ body {
 
 .middle {
   font-family: Arial;
-  background: #185a64;
+  background: #2e3337;
   padding-top: 30px;
   padding-bottom: 30px;
   -webkit-transition: 0.6s;
